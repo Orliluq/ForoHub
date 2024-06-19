@@ -1,0 +1,11 @@
+
+“
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰åôñ8ÈÒ¸Ä‚2J$5e7f06cc-4658-4e91-9321-3421d4b589d9
+“
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¹Á²°8ÇÒ¸Ä‚2J$4abdaa2a-9e3a-4bc8-8477-00aedd860e67
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ĞÔÌÃ‚2J$3e21ae5d-7f5b-4dd9-afb4-b4ad05539495
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÑÔÌÃ‚2J$fa2d76b0-a5d4-4a6a-aeaf-c9778f1a07ac
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÑÔÌÃ‚2J$747ecbc3-f56e-44f8-986c-0a4691ba6ec4

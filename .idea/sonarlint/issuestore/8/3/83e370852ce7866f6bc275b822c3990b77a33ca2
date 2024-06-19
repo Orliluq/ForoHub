@@ -1,0 +1,6 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8€àÇ’ƒ2J$ed496885-2ca6-4c58-a336-6549243f8a15
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8àÇ’ƒ2J$01c42f2e-e290-4581-bd70-b26e93de5dcb
+~
+java:S1117,";Rename "usuario" which hides the field declared at line 18.(¢¼ÿÏ8ˆàÇ’ƒ2J$528e49b7-8604-4646-a1e9-a81b1784a350
