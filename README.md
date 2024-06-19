@@ -32,9 +32,11 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 
 ## Instalación 🚧
 
-1. Clona este repositorio:
-   ```
-   git clone https://github.com/Orliluq/ForoHub.git
+Clona este repositorio:
+```
+git clone https://github.com/Orliluq/ForoHub.git
+```
+
 Navega al directorio del proyecto:
 ```
 cd ForoHub
