@@ -1,0 +1,13 @@
+
+E
+java:S3740,"/Provide the parametrized type for this generic.(†Ğ
+E
+java:S3740:"/Provide the parametrized type for this generic.(Óüû
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+I
+java:S6856*".Bind path variable "id" to a method parameter.(ü¿óüÿÿÿÿ
+d
+java:S1128"NRemove this unused import 'org.springframework.web.util.UriComponentsBuilder'.(ßª»Ó
+?
+java:S1128")Remove this unused import 'java.net.URI'.(Ö¦¨°

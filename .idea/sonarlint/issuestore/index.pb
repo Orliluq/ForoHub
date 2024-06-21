@@ -73,3 +73,7 @@ r
 Bhub/src/main/java/api/hub/infra/security/AutenticacionService.java,0\3\03aa6fa1b370794db4cc18b88ced7aa340058c3a
 k
 ;hub/src/main/java/api/hub/infra/SpringDocConfiguration.java,7\7\77d32ed787bbe12759673136e76c808bd2ab3f3d
+f
+6src/main/java/api/hub/ChallengeForoHubApplication.java,c\0\c02651a9cb31a9680d81b009172a56c6a35747bf
+g
+7src/main/java/api/hub/controller/UsuarioController.java,6\8\6896f71eb574135bcd640f7509650699e516cee5

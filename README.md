@@ -45,7 +45,9 @@ cd ForoHub
 
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
 
-![erd-api.png](hub%2Ferd-api.png)
+<p align="center">
+  <img src="hub%2Ferd-api.png">
+</p>
 
 ### Swagger 📊
 Swagger está configurado para generar documentación de la API automáticamente. Puedes acceder a la interfaz de Swagger en la siguiente URL cuando el servidor esté en funcionamiento:
