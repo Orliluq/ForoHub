@@ -45,7 +45,7 @@ public class RespuestaController {
      * REST API GET
      * Obtener todas las Respuestas
      * ENDPOINT :
-     * http://localhost:8080/respuestas
+     * http://localhost:8080/respuesta/respuestas
      ***************************************/
     @GetMapping("/respuestas")
     public ResponseEntity<Page<ListarRespuestasDTO>>  listarRespuestas(@PageableDefault(size = 10) Pageable paged){

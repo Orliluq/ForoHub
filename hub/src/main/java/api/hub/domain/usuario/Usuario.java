@@ -9,6 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 import java.util.Collection;
 import java.util.List;
 
@@ -37,14 +38,6 @@ public class Usuario implements UserDetails {
 
     private boolean active;
 
-    public Usuario(RegistroUsuarioDTO registroUsuarioDTO) {
-        this.name = registroUsuarioDTO.name();
-        this.email = registroUsuarioDTO.email();
-        this.username = registroUsuarioDTO.username();
-        this.password = registroUsuarioDTO.password();
-        this.active = true;
-    }
-
     public Usuario(RegistroUsuarioDTO registroUsuarioDTO, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.name = registroUsuarioDTO.name();
         this.email = registroUsuarioDTO.email();
@@ -62,8 +55,8 @@ public class Usuario implements UserDetails {
         }*/
     }
 
-    public void diactivateUser(){
-        this.active=false;
+    public void deactivateUser() {
+        this.active = false;
     }
 
     @Override

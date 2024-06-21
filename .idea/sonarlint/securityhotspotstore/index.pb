@@ -75,5 +75,9 @@ k
 ;hub/src/main/java/api/hub/infra/SpringDocConfiguration.java,7\7\77d32ed787bbe12759673136e76c808bd2ab3f3d
 f
 6src/main/java/api/hub/ChallengeForoHubApplication.java,c\0\c02651a9cb31a9680d81b009172a56c6a35747bf
-g
-7src/main/java/api/hub/controller/UsuarioController.java,6\8\6896f71eb574135bcd640f7509650699e516cee5
+q
+Asrc/main/java/api/hub/domain/usuario/ActualizacionUsuarioDTO.java,3\b\3bdcaac16a9645671aeace3812f0c7c6e398943c
+k
+;src/main/java/api/hub/domain/usuario/UsuarioRepository.java,1\2\122768e3e25667bcbc49528815195a22d80dc52e
+h
+8src/main/java/api/hub/domain/usuario/UsuarioService.java,d\2\d270213d6ab465a5131c34f83ed50ef4c224b5f4

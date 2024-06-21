@@ -1,10 +1,11 @@
-create table topicos (
-    id bigint not null auto_increment,
-    title varchar(100)not null unique,
-    message varchar(700)not null unique,
-    date datetime not null,
-    status varchar(100)not null,
-    author_id bigint not null,
-    course varchar(100)not null,
-    primary key(id)
+CREATE TABLE topicos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    date DATETIME NOT NULL,
+    status ENUM('ACTIVE', 'INACTIVE', 'RESOLVED') NOT NULL,
+    author_id BIGINT,
+    course VARCHAR(255) NOT NULL,
+    active BOOLEAN NOT NULL,
+    FOREIGN KEY (author_id) REFERENCES usuarios(id)
 );

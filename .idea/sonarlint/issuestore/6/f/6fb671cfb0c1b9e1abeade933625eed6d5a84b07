@@ -1,8 +1,0 @@
-
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ƒÅ™å‚2J$35302b2d-c6e1-4f49-af87-3646645be36b
-¢
-java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(ø¯Æûüÿÿÿÿ8‰Å™å‚2J$01451165-d798-46db-9640-252180d4664b
-‡
-java:S1611"?Remove the parentheses around the "authorizeRequests" parameter(Ùº¼¤ýÿÿÿÿ8£Å™å‚2J$8e45e723-50d9-4594-8e69-2c1d6ca24057
-•	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”î•³ÿÿÿÿÿ8®Å™å‚2J$8aa5bc3b-3edb-4cbd-93e7-386876c06dbc

@@ -6,13 +6,19 @@ spring:
     url: jdbc:mysql://localhost:3306/api
     username: root
     password: 14156390
-  jpa:
-    hibernate:
-      ddl-auto: update
-      show-sql: true
-      format_sql: true
-  server:
-    error:
-      include-stacktrace: never
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 30000
+      connection-timeout: 20000
+      max-lifetime: 1800000
+    jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+        format_sql: true
+    server:
+      error:
+        include-stacktrace: never
 
 

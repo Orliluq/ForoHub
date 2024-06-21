@@ -26,7 +26,7 @@ public class UsuarioController {
      * REST API GET
      * Obtener todos los Usuarios
      * ENDPOINT :
-     * http://localhost:8080/usuarios
+     * http://localhost:8080/usuario/usuarios
      ***************************************/
     @GetMapping("/usuarios")
     public ResponseEntity<Page<ListarUsuariosDTO>> listarUsuarios(@PageableDefault(size = 10) Pageable paged){
@@ -57,7 +57,7 @@ public class UsuarioController {
     @Transactional
     public ResponseEntity eliminarUsuario(@PathVariable Long id){
         Usuario usuario = usuarioRepository.getReferenceById(id);
-        usuario.diactivateUser();
+        usuario.deactivateUser();
         return ResponseEntity.noContent().build();
     }
 

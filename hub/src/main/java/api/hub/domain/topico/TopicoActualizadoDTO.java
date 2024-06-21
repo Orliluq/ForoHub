@@ -1,7 +1,6 @@
 package api.hub.domain.topico;
 
 import jakarta.validation.constraints.NotNull;
-
 import java.time.LocalDateTime;
 
 public record TopicoActualizadoDTO(
@@ -10,6 +9,7 @@ public record TopicoActualizadoDTO(
         String message,
         Status status,
         @NotNull Long usuario_Id,
-        String curso
+        String curso,
+        LocalDateTime date
 ) {
 }

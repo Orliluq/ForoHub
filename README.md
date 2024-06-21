@@ -2,6 +2,11 @@
 
 Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y discusión entre usuarios. Esta aplicación permite a los usuarios crear tópicos, responder a los mismos y participar en discusiones.
 
+<p align="center">
+    <img src="https://github.com/Orliluq/ForoHub/assets/122529721/952e8461-2eac-4c28-8fd0-bb676e672528"/>
+</p>
+
+
 ## Características ⚙️
 
 - Registro y autenticación de usuarios.
@@ -32,9 +37,11 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 
 ## Instalación 🚧
 
-1. Clona este repositorio:
-   ```
-   git clone https://github.com/Orliluq/ForoHub.git
+Clona este repositorio:
+```
+git clone https://github.com/Orliluq/ForoHub.git
+```
+
 Navega al directorio del proyecto:
 ```
 cd ForoHub
@@ -45,10 +52,13 @@ cd ForoHub
 
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
 
+<<<<<<< HEAD
 <p align="center">
   <img src="hub%2Ferd-api.png">
 </p>
 
+=======
+>>>>>>> edd3e36368e09f81f99b1622015ece6f217f01f6
 ### Swagger 📊
 Swagger está configurado para generar documentación de la API automáticamente. Puedes acceder a la interfaz de Swagger en la siguiente URL cuando el servidor esté en funcionamiento:
 ```

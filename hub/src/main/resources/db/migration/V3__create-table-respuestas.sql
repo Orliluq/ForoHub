@@ -1,8 +1,10 @@
-create table respuestas (
-    id bigint not null auto_increment,
-    solution varchar(1000)not null,
-    author int not null,
-    topico int not null,
-    date datetime not null,
-    primary key(id)
+CREATE TABLE respuestas (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    creationDate DATETIME NOT NULL,
+    solution TEXT NOT NULL,
+    author BIGINT,
+    topico BIGINT,
+    active BOOLEAN NOT NULL,
+    FOREIGN KEY (author) REFERENCES usuarios(id),
+    FOREIGN KEY (topico) REFERENCES topicos(id)
 );

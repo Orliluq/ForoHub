@@ -29,7 +29,7 @@ public class TopicoController {
      * REST API POST
      * Registrar nuevo Topico
      * ENDPOINT :
-     * http://localhost:8080/topico
+     * http://localhost:8080/topico/topico
      *************************************/
     @PostMapping("/topico")
     @Transactional
@@ -42,7 +42,7 @@ public class TopicoController {
      * REST API GET
      * Obtener todos los Topicos
      * ENDPOINT :
-     * http://localhost:8080/topicos
+     * http://localhost:8080/topico/topicos
      ***************************************/
     @GetMapping("/topicos")
     public ResponseEntity<Page<ListarTopicosDTO>>  listarTopicos(@PageableDefault(size = 10) Pageable paged){
