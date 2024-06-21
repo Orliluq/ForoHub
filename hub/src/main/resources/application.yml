@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/api
     username: root
-    password: 14156390
+    password: password
     hikari:
       maximum-pool-size: 10
       minimum-idle: 5
