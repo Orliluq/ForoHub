@@ -1,5 +1,0 @@
-CREATE TABLE curso (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255) NOT NULL,
-    categoria VARCHAR(255) NOT NULL
-);
