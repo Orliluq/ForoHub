@@ -50,6 +50,10 @@ cd ForoHub
 - Configuración
 - Base de datos: MySQL 📈
 
+<p align="center">
+    <img src="https://github.com/Orliluq/ForoHub/assets/122529721/53acb33d-6597-4700-822e-b87425f69383"/>
+</p>
+
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
 
 ### Swagger 📊
@@ -96,7 +100,7 @@ Respuesta:
 
 Solicitud:
 ```
-POST http://localhost:8080/topicos
+GET http://localhost:8080/topico/topicos
 ```
 Headers:
 ```
@@ -106,21 +110,54 @@ Content-Type: application/json
 Body:
 ```
 {
-  "titulo": "Título del tópico",
-  "mensaje": "Mensaje del tópico",
-  "autor": {
-    "id": 1,
-    "nombre": "Nombre del autor",
-    "email": "email@example.com",
-    "username": "nombre_usuario",
-    "password": "contraseña"
+  "totalPages": 1,
+  "totalElements": 3,
+  "size": 3,
+  "content": [
+    {
+      "id": 1,
+      "title": "Temática de Ciencias Exactas",
+      "message": "Exploración y comprensión de conceptos fundamentales en matemáticas, física, y química.",
+      "status": "ACTIVO",
+      "usuario_Id": 1,
+      "curso": "Introducción a la Matemática",
+      "date": "2024-07-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Historia y Cultura",
+      "message": "Estudio detallado de eventos históricos y desarrollo cultural a través de los tiempos.",
+      "status": "ACTIVO",
+      "usuario_Id": 2,
+      "curso": "Civilización Antigua",
+      "date": "2024-07-02T09:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Arte y Diseño",
+      "message": "Apreciación y creación artística, explorando diversas formas de expresión visual.",
+      "status": "ACTIVO",
+      "usuario_Id": 3,
+      "curso": "Dibujo y Pintura",
+      "date": "2024-07-03T11:00:00.000Z"
+    }
+  ],
+  "number": 0,
+  "sort": "asc",
+  "first": true,
+  "last": true,
+  "numberOfElements": 3,
+  "pageable": {
+    "offset": 0,
+    "sort": "asc",
+    "paged": true,
+    "unpaged": true,
+    "pageNumber": 0,
+    "pageSize": 3
   },
-  "curso": {
-    "id": 1,
-    "nombre": "Nombre del curso",
-    "descripcion": "Descripción del curso"
-  }
+  "empty": false
 }
+
 ```
 ## Contribuciones ⌨️
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir el cambio que deseas realizar. Siéntete libre de hacer un fork del proyecto y enviar un pull request.
